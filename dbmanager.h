@@ -38,6 +38,7 @@ public:
 
     bool createMission(const QString& name);
     void clearAllData();
+    bool AddValues(QList<Protocol::Waypoint>* wp);
 
 
 
